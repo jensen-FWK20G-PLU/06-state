@@ -1,4 +1,18 @@
-
+.App {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+header, main {
+	padding: 0.5em 1em;
+}
+header {
+	background-color: hotpink;
+}
+main {
+	background-color: #E8C7EB;
+	flex-grow: 1;
+}
 
 
 .form {
